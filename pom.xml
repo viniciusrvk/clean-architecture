@@ -5,7 +5,16 @@
 	<groupId>br.com.viniciusrvk</groupId>
 	<artifactId>cleanarchitecture</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.2</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
